@@ -1,7 +1,7 @@
 # FE Intern Assignment – Full Stack Deployment
 
 ### 🔗 Live Demo
-- **Frontend:** [https://fe-intern-assignment.vercel.app](https://fe-intern-assignment.vercel.app)
+- **Frontend:** [https://fe-intern-assignment.vercel.app](https://fe-intern-assignment-wrxp.vercel.app/login)
 - **Backend:** [https://fe-intern-assignment.onrender.com](https://fe-intern-assignment.onrender.com)
 
 ---
