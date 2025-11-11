@@ -3,8 +3,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import morgan from 'morgan';
 
-import sequelize from './src/db/index.js';
-import './src/models/User.js';
+
+
 import './src/models/Task.js';
 import { User, Task } from './src/models/associations.js';
 
@@ -25,16 +25,6 @@ app.use('/api/tasks', taskRoutes);
 
 const PORT = process.env.PORT || 5000;
 
-async function start() {
-  try {
-    await sequelize.authenticate();
-    await sequelize.sync(); // dev: auto-create tables
-    console.log('MySQL connected & models synced');
-    app.listen(PORT, () => console.log(`Server listening on :${PORT}`));
-  } catch (err) {
-    console.error('DB connection error:', err);
-    process.exit(1);
-  }
-}
-
-start();
+app.listen(PORT, () => {
+  console.log(`✅ Server running successfully on port ${PORT}`);
+});
