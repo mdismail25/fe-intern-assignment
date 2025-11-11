@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body { @apply bg-[#00161f] text-white; }
+
+.container { @apply max-w-6xl mx-auto; }
+
+.input {
+  @apply w-full rounded-xl border border-white/20 bg-white/10 text-white
+         placeholder-white/60 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-400;
+}
+
+.label { @apply text-sm font-medium text-white/80; }
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium
+         border border-white/20 bg-white/10 hover:bg-white/20 active:bg-white/25 transition text-white;
+}
+
+.btn-primary { @apply bg-cyan-500/90 border-cyan-500 text-white hover:bg-cyan-500; }
+
+.link { @apply text-cyan-300 hover:text-cyan-200 underline-offset-2 hover:underline; }
+
+.table { @apply w-full text-left; }
+.table th, .table td { @apply p-2 align-middle; }
+.table tr { @apply border-t border-white/10; }
