@@ -11,7 +11,7 @@
 
 | Service | URL |
 |----------|-----|
-| 🖥️ **Frontend (Vercel)** | [https://fe-intern-assignment.vercel.app](https://fe-intern-assignment.vercel.app) |
+| 🖥️ **Frontend (Vercel)** | [https://fe-intern-assignment.vercel.app](https://fe-intern-assignment-wrxp.vercel.app/login) |
 | ⚙️ **Backend (Render)** | [https://fe-intern-assignment.onrender.com](https://fe-intern-assignment.onrender.com) |
 | 📬 **GitHub Repository** | [https://github.com/mdismail25/fe-intern-assignment](https://github.com/mdismail25/fe-intern-assignment) |
 
